@@ -1,4 +1,7 @@
-.top {
+
+
+
+#navbar-pinterest{
     display: flex;
     background-color: white;
     height: 50px;
@@ -8,12 +11,10 @@
     position: fixed;
     top: 0; 
     width: 100%;
-   
-
 
 }
 
-.top div {
+#navbar-pinterest div {
     align-items: center;
     font-style: normal;
 
@@ -49,7 +50,7 @@
     font-size: 20px
 }
 
-.menu p, input {
+.menu p {
 
     border-radius: 30px;
     background-color: rgb(2, 2, 0);
@@ -69,8 +70,9 @@
 
 }
 
-input{
+.finder{
     border: 0;
+    outline: none;
     background-color: transparent;
     flex-grow: .2;
 }
@@ -97,7 +99,7 @@ input{
     justify-content: end;
 }
 
-.Galeria{
+#content{
 
     columns: 4 400px;
     margin-top: 70px;
@@ -116,12 +118,12 @@ input{
     
 }
 
-.images{
+.card-image{
     grid-column-start: 1;
     grid-row-start: 1;
     
 }
-.images img{
+.card-image img{
     max-width: 100%;
     border-radius: 20px;
     
